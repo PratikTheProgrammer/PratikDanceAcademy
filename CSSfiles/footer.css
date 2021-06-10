@@ -1,0 +1,14 @@
+/* This is footer CSS */
+footer{
+    background-color: rgba(0, 0, 0, 0.925);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    /* position: absolute;
+    bottom: 0%;
+    left: 0%; */
+    width: 100vw;
+    height: 25vh;
+}

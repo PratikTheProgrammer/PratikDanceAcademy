@@ -1,0 +1,21 @@
+/* This is header */
+header{
+    background: url("../images/headerBg.jpg") no-repeat center center;
+    background-size: 100%;
+    border: 2px solid #000000;
+    color: #ffffff;
+    padding: 0 8em;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+header h1{
+    font-size: 3.3rem;
+}
+
+header h2{
+    font-size: 3rem;
+}

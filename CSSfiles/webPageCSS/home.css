@@ -1,0 +1,50 @@
+/* This is CSS for the home page */
+
+/* Section starts from here */
+section{
+    margin: 20px 0;
+    padding: 4px 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    border: 2px solid red;
+    border-radius: 4px;
+    width: 22vw;
+    height: 27vh;
+    background: no-repeat center center;
+}
+
+#c1{
+    background-image: url("../../images/div1.png");
+}
+
+#c2{
+    background-image: url("../../images/div2.jpg");
+}
+
+#c3{
+    background-image: url("../../images/div3.jpg");
+}
+
+.box p{
+    font-weight: bold;
+    color: rgb(1, 1, 48);
+}
+
+/* Article strts from here */
+article h2{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2.3rem;
+    color: rgb(1, 167, 45);
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px 0 0;
+}

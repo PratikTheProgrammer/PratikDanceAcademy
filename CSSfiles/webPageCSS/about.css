@@ -1,0 +1,28 @@
+/* This is our About page CSS */
+.about{
+    padding: 0 6px;
+}
+
+.about h1{
+    text-decoration: underline;
+}
+
+#target{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tg p{
+    color: rgb(4, 4, 88);
+    font-weight: bold;
+}
+
+.tgi{
+    width: 27vw;
+    height: 33vh;
+}
+
+#moreUs{
+    padding: 0 6px;
+}

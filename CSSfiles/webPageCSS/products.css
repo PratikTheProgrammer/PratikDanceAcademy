@@ -1,0 +1,72 @@
+/* This is our Product page CSS */
+.products{
+    padding: 8px 25px;
+    margin: 1rem 0 10rem 0;
+}
+
+.products h1{
+    text-decoration: underline;
+}
+
+#product{
+    display: grid;
+    grid-template-areas: 'i1 i2 i4'
+    'i3 i5 i6'
+    'i7 i8 i6';
+    margin: auto;
+}
+
+.item img{
+    border: 2px solid red;
+    width: 15vw;
+    height: 20vh;
+    cursor: pointer;
+}
+
+#long{
+    border: 2px solid green;
+    height: 40vh;
+}
+
+.item p{
+    font-weight: bold;
+    color: rgb(2, 2, 77);
+}
+
+#item1{
+    grid-area: i1;
+}
+
+#item2{
+    grid-area: i2;
+}
+
+#item3{
+    grid-area: i3;
+}
+
+#item4{
+    grid-area: i4;
+}
+
+#item4 img{
+    width: 15vw;
+    height: 30vh;
+}
+
+#item5{
+    grid-area: i5;
+}
+
+#item6{
+    grid-area: i6;
+}
+
+#item7{
+    grid-area: i7;
+}
+
+#item8{
+    grid-area: i8;
+}
+

@@ -1,0 +1,35 @@
+/* This is nav CSS */
+nav{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    height: 10vh;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 6px 15px;
+    list-style: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid #ffffff;
+    outline: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li a:active{
+    color: red;
+    background-color: #ffffff;
+}

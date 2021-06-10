@@ -1,0 +1,62 @@
+/* this is our sing-in page CSS */
+.form{
+    margin: 68px 0 50px 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+form{
+    border: 2px solid red;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 44vh;
+    margin: auto;
+    justify-content: center;
+    padding: 20px 6rem;
+}
+
+form h1{
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+form input{
+    margin: 12px 0;
+    height: 36px;
+    font-size: 1rem;
+}
+
+#btn{
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid #000000;
+    border-radius: 19px;
+    background: none;
+}
+
+#btn:hover{
+    text-decoration: underline;
+}
+
+#btn:active{
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+#errpass{
+    color: red;
+    padding: 2px 0;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.valid{
+    border: 1px solid green;
+}
+
+.invalid{
+    border: 1px solid red;
+}
